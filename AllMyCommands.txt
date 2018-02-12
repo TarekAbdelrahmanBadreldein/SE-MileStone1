@@ -1,0 +1,12 @@
+a-$ cd /c/Users/USRBGDY/M0  //this will make me move to a directory to start the git repo.($ git init) //this starts a git repo inside the M0 directory.
+b- After copying the files in the directory i used ($ git status) to show the changes that still need committing, then i used ($ git add.) to add the files to the index, then ($ git commit -m "Commit 0: Adding Files").
+c- to delete i used ($ git  then (git status) to show that the file is removed.
+d- to undo deletion i used ($ git reset  e7e34e4) with the number is the id of the commit and then ($ git checkout -- File2.txt) this returned back File2.txt
+e- Since i commited the first time yes i deleted but i back tracked so nothing new to commit now.
+f- $ git push  https://github.com/TarekAbdelrahmanBadreldein/SE-MileStone1.git master
+g- $ echo "" > README.md 
+h- $ git checkout -b ReadMe
+i- $ git add .
+j- $ git commit -m "Commit 2: Adding README file to RedMe Branch"
+k- 1-$ git checkout master 2-git merge ReadMe
+l- 1-$ git add . 2- $ git commit -m "Commit 3: Merging Master to ReadMe branch and adding(AllMyCommands.txt) "
